@@ -164,14 +164,14 @@
          </section>
          <section class="main_contact-section">
             <div class="container contact_container">
-              <form class="contact_form" action="/action_page.php">
+              <form class="contact_form" action="./src/php/sendmail.php">
                 <div class="form-group">
                  <label for="name">Имя*</label>
                  <input type="text" class="form-control" name="name">
                </div>
                <div class="form-group">
                  <label for="dob">Телефон*</label>
-                 <input type="text" class="form-control" name="dob">
+                 <input type="text" class="form-control" name="phone">
                </div>
                <div class="form-group">
                  <label for="email">Электронная почта</label>
@@ -179,7 +179,7 @@
                </div>
                <div class="form-group">
                  <label for="income">Сообщение*</label>
-                 <textarea cols="37" class="form-control form_textarea"></textarea>
+                 <textarea name="question" cols="37" class="form-control form_textarea"></textarea>
                </div>
                  <button type="submit" class="btn form_btn" style="float:right">Отправить!</button>
                 </form>
