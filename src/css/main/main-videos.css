@@ -1,0 +1,52 @@
+.main_video_compain{
+    padding-top: 7vw;
+}
+
+@media (max-width:600px) {
+    .main_mission-row{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .main_values-col{
+        width: 100%;
+    }   
+}
+.description{
+    color: #787a80;
+}
+.ratio{
+    margin-top: 3vw;
+}
+.main_mission{
+    padding-top: 7vw;
+}
+.text-head{
+    font-size: 3vw;
+}
+@media (max-width:600px) {
+    .text-head{
+        font-size: 18px;
+    }
+    .description{
+        font-size: 14px;
+    }
+}
+.mission__subtitle{
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 80px;
+}
+.item_change{
+    background-image: url(/src/img/11.png);
+}
+.item_safety{
+    background-image: url(/src/img/ic-hand.png);
+}
+.item_quality{
+    background-image: url(/src/img/11.png);
+}
