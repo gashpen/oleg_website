@@ -98,8 +98,11 @@ ul {
 	}
 }
 .footer_office{
-    color:#fff
+    color:#fff;
+    display: flex;
+    flex-direction: column;
 }
-.footer_office>span{
+
+.string>span{
     font-weight: 700;
 }
