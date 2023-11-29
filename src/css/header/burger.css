@@ -31,7 +31,7 @@
 
 .menu-btn__burger {
     width: 30px;
-    height: 6px;
+    height: 3px;
     background: #000;
     border-radius: 5px;
     -webkit-transition: all .2s ease-in-out;
@@ -44,7 +44,7 @@
     content: '';
     position: absolute;
     width: 30px;
-    height: 6px;
+    height: 3px;
     background: #000;
     border-radius: 5px;
     -webkit-transition: all .2s ease-in-out;
