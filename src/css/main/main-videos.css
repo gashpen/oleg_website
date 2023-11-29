@@ -42,11 +42,11 @@
     padding-top: 80px;
 }
 .item_change{
-    background-image: url(/src/img/11.png);
+    background-image: url(../../img/11.png);
 }
 .item_safety{
-    background-image: url(/src/img/ic-hand.png);
+    background-image: url(../../img/ic-hand.png);
 }
 .item_quality{
-    background-image: url(/src/img/11.png);
+    background-image: url(../../src/img/11.png);
 }
